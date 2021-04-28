@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 10vh;
+    width: 100vw;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 5%;
+    
+}
+
+.header_2 {
+    height: 10vh;
+    width: 100vw;
+    background-color: lightgray;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5% 0 5%;
+}
+
+.tableModalBody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.containerText {
+    padding: 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100vw;
+}
+
+.colorTable {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 0.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.cadetblue {
+    background-color: cadetblue;
+}
+
+.chocolate {
+    background-color: chocolate;
+}
+
+.darkgreen {
+    background-color: darkgreen;
+}
+
+.darkturquoise {
+    background-color: darkturquoise;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.gold {
+    
+    background-color: gold;
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.modalButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bgColorTable {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bgColorImage {
+    display: none;
+}
+
+
+
+.imageFile {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageFile {
+    padding-top: 3%;
+}
+
+span {
+    display: none;
+}
+
+#loginModal {
+    display: none;
+}
+
+#validateText {
+    margin-top: 3%;
+    text-align: center;
+    color: red;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.textArea {
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    display: none;
+    resize: none;
+}
+
+.textArea:focus{
+    outline: none;
+    border: none;
+}
+.textArea:hover{
+    outline: none;
+    border: none;
+}
+
+
+#olListModal{
+display: none;
+
+}
